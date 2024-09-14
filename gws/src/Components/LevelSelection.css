@@ -1,0 +1,30 @@
+.level-selection {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .level-cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .level-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .level-card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .selected-level {
+    margin-top: 20px;
+  }
+  
